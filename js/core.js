@@ -21,8 +21,19 @@
 
 
 function inicialy (str){
+  let strNew = str.split(' ')
+  console.log(strNew[0])
+  console.log(strNew[1][0])
+  console.log(strNew[2][0]);
+  
+  console.log(strNew[0] + ' ' + strNew[1][0] + ' ' + strNew[2][0]);
+  
+
 
 }
 
 inicialy ("Koshoeva Ajar Koshoevna") //Koshoeva A.K
-inicialy ("Abitov Islam  Kahramanovich") //Abitov I.K
+//inicialy ("Abitov Islam  Kahramanovich") //Abitov I.K
+
+
+
