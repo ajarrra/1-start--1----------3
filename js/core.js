@@ -20,53 +20,68 @@
 
 
 
-function inicialy (str){
-  let strNew = str.split(' ')
-  console.log(strNew[0])
-  console.log(strNew[1][0])
-  console.log(strNew[2][0]);
+// function inicialy (str){
+//   let strNew = str.split(' ')
+//   console.log(strNew[0])
+//   console.log(strNew[1][0])
+//   console.log(strNew[2][0]);
   
-  console.log(strNew[0] + ' ' + strNew[1][0] + ' ' + strNew[2][0]);
+//   console.log(strNew[0] + ' ' + strNew[1][0] + ' ' + strNew[2][0]);
   
 
 
-}
+// }
 
-inicialy ("Koshoeva Ajar Koshoevna") //Koshoeva A.K
-//inicialy ("Abitov Islam  Kahramanovich") //Abitov I.K
-
-
-//проверьте отрицательное оно или нет
-const number = -4;
-// Проверяем, меньше ли число нуля
-if (number < 0) {
-  // Число отрицательное
-  console.log("Число отрицательное");
-} else {
-  // Число положительное или равно нулю
-  console.log("Число положительное или равно нулю");
-}
+// inicialy ("Koshoeva Ajar Koshoevna") //Koshoeva A.K
+// //inicialy ("Abitov Islam  Kahramanovich") //Abitov I.K
 
 
-//вывести длину строки
-const str = "Привет, мир!";
-// Получаем длину строки
-const length = str.length;
+// //проверьте отрицательное оно или нет
+// const number = -4;
+// // Проверяем, меньше ли число нуля
+// if (number < 0) {
+//   // Число отрицательное
+//   console.log("Число отрицательное");
+// } else {
+//   // Число положительное или равно нулю
+//   console.log("Число положительное или равно нулю");
+// }
 
-// Выводим длину строки в консоль
-console.log(length); // 12
+
+// //вывести длину строки
+// const str = "Привет, мир!";
+// // Получаем длину строки
+// const length = str.length;
+
+// // Выводим длину строки в консоль
+// console.log(length); // 12
 
 
 
 
-//четное оно или нет
-const num = 10;
+// //четное оно или нет
+// const num = 10;
 
-// Проверяем, делится ли число на 2 без остатка
-if (num % 2 === 0) {
-  // Число четное
-  console.log("Число четное");
-} else {
-  // Число нечетное
-  console.log("Число нечетное");
-}
+// // Проверяем, делится ли число на 2 без остатка
+// if (num % 2 === 0) {
+//   // Число четное
+//   console.log("Число четное");
+// } else {
+//   // Число нечетное
+//   console.log("Число нечетное");
+// }
+
+
+
+
+//функция которая принимает 2 числа в качестве аргументов и возвращает наибольший общий делитель - наибольшее число , на которое 
+// оба числа делятся без остатка 
+
+// function num(a, b) {
+//   if (b !== 0) {
+//     return num(b, a % b)
+//   }
+//   return Math.abs(a)
+// }
+
+// console.log(num(12, 18))
